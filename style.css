@@ -6,13 +6,39 @@
     position: relative;
     border-radius: 30px;
     margin: 0 auto;
+    margin-bottom: 30px;
 
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
 }
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
+}
+button{
+    padding: 10px 30px;
+    font-size: 25px;
+    text-transform: capitalize;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #333;
+    color: rgb(253, 253, 253);
+    transition: 0.5s;
+    
+}
+button:hover{
+    box-shadow: 5px 5px 10px rgb(0, 255, 55);
+}
+button:active{
+transform: scale(0.8);
 }
 img{
     width: 100%;
